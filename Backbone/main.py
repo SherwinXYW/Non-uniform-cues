@@ -341,37 +341,9 @@ if __name__ == "__main__":
             self.mapsize = 32
             self.inputsize = 256
             self.log = 'P4-6wMT'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/CDCN-master/ST-CDCN/T-CDCN/T-CDCN_P4-6/#epoch270.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/D/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/T-CDCN_P4-6/#epoch330.pth.tar'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/CDCN-master/ST-CDCN/T-CDCN/T-CDCN_P4-5/#epoch390.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/T-CDCN_P4-5/#epoch390.pth.tar'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/CDCN-master/ST-CDCN/T-CDCN/T-CDCN_P4-4/#epoch200.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/texture_P4-4/#epoch110.pth.tar'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/CDCN-master/ST-CDCN/T-CDCN/T-CDCN_P4-3/#epoch380.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/T-CDCN_P4-3/#epoch160.pth.tar'
-            self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/CDCN-master/ST-CDCN/T-CDCN/T-CDCN_P4-2/#epoch340.pth.tar'
-            self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/T-CDCN_P4-2/#epoch260.pth.tar'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/CDCN-master/ST-CDCN/T-CDCN/T-CDCN_P4-1/#epoch340.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/T-CDCN_P4-1/#epoch370.pth.tar'
+            self.pretrain_Mnet = '../Motion/M_P4-6/#epoch340.pth.tar'
+            self.pretrain_Tnet = '../Texture/T_P4-6/#epoch370.pth.tar'
 
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Motion/T-CDCN_P3-1/#epoch340.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/texture_P3-1/#epoch250.pth.tar'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Motion/T-CDCN_P3-2/#epoch450.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/texture_P3-2/#epoch250.pth.tar'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Motion/T-CDCN_P3-3/#epoch450.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/texture_P3-3/#epoch230.pth.tar'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Motion/M_P3-4/#epoch390.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/texture_P3-4/#epoch180.pth.tar'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Motion/T-CDCN_P3-5/#epoch500.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/texture_P3-5/#epoch280.pth.tar'
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Motion/T-CDCN_P3-6/#epoch480.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/texture_P3-6/#epoch350.pth.tar'
-
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/CDCN-master/ST-CDCN/T-CDCN/T-CDCN_P2/#epoch180.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/texture_P2/#epoch400.pth.tar'
-
-            # self.pretrain_Mnet = '/home/yaowen/Documents/PycharmProjects/CDCN-master/ST-CDCN/T-CDCN/T-CDCN_P1/#epoch300.pth.tar'
-            # self.pretrain_Tnet = '/home/yaowen/Documents/PycharmProjects/ST-CDCN-master/Texture/texture_P1/#epoch320.pth.tar'
 
             self.resume = -1
             self.save_hist_model = False
